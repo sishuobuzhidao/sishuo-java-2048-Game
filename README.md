@@ -12,4 +12,4 @@ The biggest power of 2 that this game has is 2^17 = 131072, because that is the 
 
 App.java containes public static void main(String[] args).
 GameFrame.java extends JFrame and is the Graphical User Interface.
-Tile.java is a javaBean (Object-Oriented Design).
+I originally created Tile.java as a javaBean (Object-Oriented Design) to describe the 2048 sliding tiles, but they are handled by a 2D Array in GameFrame.java instead that works fine.
